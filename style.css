@@ -66,13 +66,18 @@ header h1 {
 }
 
 header .menu {
-  /* background: crimson; */
-
   padding: 3.3rem 0;
 }
 
 header .menu li {
   margin: 0 2rem;
+}
+
+nav ul li:last-child {
+  background-color: cadetblue;
+
+  border: 2px solid;
+  padding: 0 2rem;
 }
 
 /* Hero Section */
