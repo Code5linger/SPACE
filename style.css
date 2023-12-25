@@ -87,7 +87,7 @@ nav {
 
   max-width: 82.5rem;
   margin: 0 auto;
-  padding: 1.9rem 0;
+  padding: 2rem 0;
 }
 
 .logo {
@@ -112,12 +112,14 @@ nav li {
   font-family: "Inter", sans-serif;
   list-style: none;
 
-  padding: 0 4.1rem 0 0;
+  padding: 0 4.25rem 0 0;
 }
 
 nav li:last-child {
   padding: 1rem 2rem;
-  border: 5px solid white;
+  border: 2px solid;
+  border-image-source: linear-gradient(90deg, #6b1ef1, #cb28e5);
+  border-image-slice: 1;
 }
 
 /* Hero Section */
