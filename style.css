@@ -77,19 +77,17 @@ nav ul li:last-child {
 } */
 
 header {
-  background: crimson;
+  background: #1e1b3a;
 }
 
 nav {
-  background: cadetblue;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   max-width: 82.5rem;
   margin: 0 auto;
-  padding: 1.6rem 0;
+  padding: 1.9rem 0;
 }
 
 .logo {
@@ -100,7 +98,6 @@ header h1 {
   font-family: "Russo One", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  /* margin: 0.8rem 1rem; */
   margin: auto 1rem;
 }
 
@@ -114,13 +111,11 @@ nav ul {
 nav li {
   font-family: "Inter", sans-serif;
   list-style: none;
-  background: crimson;
 
   padding: 0 4.1rem 0 0;
 }
 
 nav li:last-child {
-  background: cadetblue;
   padding: 1rem 2rem;
   border: 5px solid white;
 }
