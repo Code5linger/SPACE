@@ -16,14 +16,11 @@ a {
 }
 
 /* Header */
-header {
-  /* background: crimson; */
-
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  /* max-width: 60rem; */
   margin-top: 1rem;
 
   max-width: 82.5rem;
@@ -37,7 +34,6 @@ nav ul {
 }
 
 nav li {
-  /* background: black; */
   list-style: none;
 }
 
@@ -78,11 +74,57 @@ nav ul li:last-child {
 
   border: 2px solid;
   padding: 0 2rem;
+} */
+
+header {
+  background: #1e1b3a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 82.5rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.logo {
+  display: flex;
+}
+
+header h1 {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: auto 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-family: "Inter", sans-serif;
+  list-style: none;
+
+  padding: 0 4.25rem 0 0;
+}
+
+nav li:last-child {
+  padding: 1rem 2rem;
+  border: 2px solid;
+  border-image-source: linear-gradient(90deg, #6b1ef1, #cb28e5);
+  border-image-slice: 1;
 }
 
 /* Hero Section */
 
-.hero {
+/* .hero {
   background: greenyellow;
 
   display: flex;
@@ -98,4 +140,4 @@ nav ul li:last-child {
   display: block;
   width: 33rem;
   height: auto;
-}
+} */
