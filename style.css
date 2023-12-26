@@ -64,18 +64,16 @@ nav li:last-child {
 }
 
 /* Hero Section */
+body {
+  background: #1e1b3a;
+}
+
 section {
   max-width: 82.5rem;
-
-  /* background: #cb28e5; */
 }
 
 .hero {
-  /* background: greenyellow; */
-
   display: flex;
-  /* background: white; */
-  /* max-width: 60rem; */
   margin: 0 auto;
 }
 
@@ -91,6 +89,36 @@ section {
   padding: 45px 0px 0 0;
   top: -0.8rem;
   left: 3.2rem;
+}
+
+.CTA-Hollow-Box {
+  position: absolute;
+  top: 5rem;
+  right: 31rem;
+}
+
+.CTA-jupiter {
+  position: absolute;
+  top: -6.5rem;
+  right: -72.5rem;
+}
+
+.CTA-Comet {
+  position: absolute;
+  top: -1.5rem;
+  right: -42.5rem;
+}
+
+.CTA-BG-Shape {
+  position: absolute;
+  top: 14rem;
+  right: -42.5rem;
+}
+
+.CTA-Donut {
+  position: absolute;
+  top: 45rem;
+  right: -60rem;
 }
 
 .cta-text {
@@ -117,41 +145,33 @@ h1 {
 
 .cta-intro {
   background: #090909;
-  /* background: blue; */
-  /* border-radius: 1rem; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
   margin-bottom: 2rem;
 }
 
 .cta-intro-img {
   display: block;
   width: 4.5rem;
-  padding-left: 1.1rem;
-  padding-right: 0.8rem;
 }
 
 h3 {
-  /* background: crimson; */
-
   font-family: Inter;
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0em;
   text-align: left;
-
+  padding-left: 1rem;
   background-image: linear-gradient(95.79deg, #2317fa -33.63%, #d529e4 97.49%);
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .cta-text p {
-  /* background-color: #cb28e5; */
   margin-top: 2.15rem;
-
   font-family: Inter;
   font-size: 22px;
   font-weight: 400;
