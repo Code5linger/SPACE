@@ -189,3 +189,15 @@ h3 {
   padding: 1.8rem 4.8rem;
   margin: 4rem 0 0 0;
 }
+
+/* Discover Univerce */
+.discover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #18163b;
+}
+
+.card-main {
+  display: flex;
+}
